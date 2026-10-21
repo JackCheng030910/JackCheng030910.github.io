@@ -445,3 +445,33 @@
     width: 100%;
   }
 }
+
+/* Research section and publication group headings (Oct 2026) */
+.research-interests {
+  margin: 0 0 12px 20px;
+  color: #394553;
+  line-height: 1.6;
+}
+
+.research-interests li {
+  margin-bottom: 6px;
+}
+
+.research-points {
+  margin: 6px 0 0 18px;
+  font-size: 0.95rem;
+  color: #515d6c;
+  line-height: 1.55;
+}
+
+.research-points li {
+  margin-bottom: 4px;
+}
+
+.pub-group-title {
+  font-size: 1.1rem;
+  color: #3b4a5c;
+  font-weight: 600;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
