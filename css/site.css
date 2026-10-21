@@ -92,7 +92,7 @@ h2 .sub { font-weight: 400; color: var(--faint); font-size: 0.9rem; margin-left:
 .pub { display: grid; grid-template-columns: 200px 1fr; gap: 24px; padding: 18px 0; border-top: 1px solid var(--line); }
 .pub:first-child { border-top: 0; }
 .pub--text { grid-template-columns: 1fr; }
-.pub img { width: 200px; height: 125px; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); background: var(--bg-soft); }
+.pub img { width: 200px; height: 125px; object-fit: contain; padding: 4px; border-radius: 8px; border: 1px solid var(--line); background: #fff; }
 .pub__title { font-weight: 600; line-height: 1.45; }
 .pub__authors { color: var(--muted); font-size: 0.93rem; margin-top: 2px; }
 .pub__authors b { color: var(--text); font-weight: 600; }
