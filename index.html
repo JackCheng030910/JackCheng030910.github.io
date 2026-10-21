@@ -4,391 +4,308 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Xuejun (Jack) Cheng</title>
-  <meta name="description" content="Xuejun (Jack) Cheng — Master of AI at Monash University, incoming MS CS at Georgia Tech. Research in NLP and computational social science: construct validity of LLM evaluation, multimodal and multilingual discourse analysis, and emotion-aware narrative world models.">
-  <meta name="keywords" content="Xuejun Cheng, Jack Cheng, 程学俊, NLP, Computational Social Science, LLM Evaluation, Construct Validity, Human-AI Alignment, World Models, Monash University, Georgia Tech">
+  <meta name="description" content="Xuejun (Jack) Cheng — Master's student in AI at Monash University and incoming M.S. CS at Georgia Tech. Research in NLP, computational social science and world models. Seeking PhD opportunities.">
+  <meta name="keywords" content="Xuejun Cheng, Jack Cheng, 程学俊, NLP, Computational Social Science, World Models, Construct Validity, Multimodal, Monash University, Georgia Tech, PhD">
   <meta property="og:title" content="Xuejun (Jack) Cheng">
-  <meta property="og:description" content="NLP × Computational Social Science · Monash University · Georgia Tech">
+  <meta property="og:description" content="NLP · Computational Social Science · World Models — seeking PhD opportunities">
   <meta property="og:image" content="https://jackcheng030910.github.io/images/self-portrait/me.jpeg">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/site.css?v=20261021b">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css?v=20261022">
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
 </head>
 <body>
 
 <nav class="nav">
-  <div class="container">
-    <a class="nav__brand" href="#top">Xuejun (Jack) Cheng</a>
+  <div class="wrap">
+    <a class="nav__name" href="#top">Xuejun (Jack) Cheng</a>
     <div class="nav__links">
       <a href="#about">About</a>
       <a href="#news">News</a>
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
+      <a href="#publications">Research</a>
+      <a href="#mentorship">Mentorship</a>
       <a href="#background">Background</a>
-      <a href="#skills">Skills</a>
+      <a href="Xuejun_Cheng_CV.pdf" target="_blank" rel="noopener">CV</a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
     </div>
   </div>
 </nav>
 
-<main class="container" id="top">
+<main class="wrap" id="top">
 
-  <!-- ===== Hero ===== -->
-  <header class="hero">
-    <img class="hero__photo" src="images/self-portrait/me.jpeg" alt="Portrait of Xuejun (Jack) Cheng">
+  <!-- 01 About -->
+  <header class="intro" id="about">
     <div>
-      <h1 class="hero__name">Xuejun (Jack) Cheng<span class="hero__cn">程学俊</span></h1>
-      <p class="hero__role"><b>Master of AI</b> @ Monash University · <b>Incoming MS CS</b> @ Georgia Tech</p>
-      <p class="hero__tagline">I work at the intersection of <b>natural language processing</b> and <b>computational social science</b>, with a focus on whether the way we evaluate AI measures what we think it measures.</p>
+      <h1>Xuejun (Jack) Cheng<span class="cn">程学俊</span></h1>
+      <p class="affil">Master's Student @ Monash University · Incoming M.S. CS @ Georgia Tech</p>
+      <span class="seeking">Seeking PhD opportunities</span>
+
+      <p>Hi! I am Xuejun (Jack) Cheng, currently pursuing a Master's degree in Artificial Intelligence at <a href="https://www.monash.edu/" target="_blank" rel="noopener">Monash University</a>. I have also been admitted to the Online Master of Science in Computer Science (OMSCS) program at the <a href="https://omscs.gatech.edu/" target="_blank" rel="noopener">Georgia Institute of Technology</a>, where I plan to specialize in Machine Learning (expected start: Spring 2027).</p>
+
+      <p>At Monash, I work with <b>Prof. Wong Wai Peng</b> and <b>A/Prof. Julian Garcia</b>. I am also working with <b>Prof. Wei Shen (沈伟)</b> at Shanghai Jiao Tong University's KoGuan School of Law on a paper about AI in finance. Previously, I studied under <b>Rahul Sen</b> at Coventry University.</p>
+
+      <p>My research interests lie in <b>Natural Language Processing</b>, <b>Computational Social Science</b>, and <b>World Models</b>, particularly video-based predictive representations, temporal dynamics, and multimodal intelligence.</p>
+
+      <p><b>I am currently seeking PhD opportunities</b> in these areas and would be happy to connect with potential supervisors and collaborators.</p>
+
       <div class="links">
-        <a class="btn btn--primary" href="Xuejun_Cheng_CV.pdf" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 7V3.5L18.5 9H13zM8 13h8v2H8v-2zm0 4h8v2H8v-2z"/></svg>CV
-        </a>
-        <a class="btn" href="mailto:xche0474@student.monash.edu">
-          <svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>Email
-        </a>
-        <a class="btn" href="https://scholar.google.com/citations?user=c9k-UGgAAAAJ" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zm-6.2 9.6V16c0 1.7 2.8 4 6.2 4s6.2-2.3 6.2-4v-3.4L12 16l-6.2-3.4z"/></svg>Google Scholar
-        </a>
-        <a class="btn" href="https://github.com/JackCheng030910" target="_blank" rel="noopener">
-          <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub
-        </a>
-        <a class="btn" href="https://orcid.org/0009-0008-3901-8597" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM8.3 17H6.7V9.1h1.6V17zM7.5 8.1a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM10 9.1h3.3c3 0 4.4 2.2 4.4 3.95 0 1.9-1.5 3.95-4.4 3.95H10V9.1zm1.6 1.45v5h1.6c2.3 0 2.9-1.6 2.9-2.5 0-1.5-1-2.5-2.9-2.5h-1.6z"/></svg>ORCID
-        </a>
+        <a href="mailto:xche0474@student.monash.edu">Email</a>
+        <a href="Xuejun_Cheng_CV.pdf" target="_blank" rel="noopener">CV</a>
+        <a href="https://scholar.google.com/citations?user=c9k-UGgAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://github.com/JackCheng030910" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://orcid.org/0009-0008-3901-8597" target="_blank" rel="noopener">ORCID</a>
       </div>
     </div>
+    <img class="photo" src="images/self-portrait/me.jpeg" alt="Portrait of Xuejun (Jack) Cheng">
   </header>
 
-  <div class="status">
-    <span class="status__dot"></span>
-    <div><b>Open to research collaborations and internships.</b> I am based in Shanghai from Nov 2026 to Feb 2027 (in person), and available remotely afterwards.</div>
-  </div>
-
-  <!-- ===== About ===== -->
-  <section id="about">
-    <h2 class="section-title">About</h2>
-    <div class="prose">
-      <p>I am a Master of Artificial Intelligence student at <a href="https://www.monash.edu/" target="_blank" rel="noopener">Monash University</a>, and I will start an MS in Computer Science at the <a href="https://www.gatech.edu/" target="_blank" rel="noopener">Georgia Institute of Technology</a> in February 2027. Before moving into AI, I earned a BA (Hons) in Marketing from <a href="https://www.coventry.ac.uk/" target="_blank" rel="noopener">Coventry University</a> and studied financial law at <a href="https://law.sjtu.edu.cn/" target="_blank" rel="noopener">Shanghai Jiao Tong University KoGuan School of Law</a>. This background shapes my interest in the societal impact and governance of AI.</p>
-    </div>
+  <section>
+    <h2>Research Interests</h2>
     <div class="interests">
       <div class="interest">
-        <div class="interest__k">Measurement</div>
-        <h3>Do our evaluations measure what we think?</h3>
-        <p>Construct validity of LLM annotation and evaluation, and when high agreement hides the wrong construct.</p>
+        <b>NLP &amp; Computational Social Science</b>
+        <span>Construct validity of LLM evaluation, multilingual evaluation, social computing and collective behaviour.</span>
       </div>
       <div class="interest">
-        <div class="interest__k">Social computing</div>
-        <h3>How do people talk about culture online?</h3>
-        <p>Leakage-safe multimodal and multilingual analysis of social media discourse.</p>
-      </div>
-      <div class="interest">
-        <div class="interest__k">Agents</div>
-        <h3>How should agents decide under emotion and values?</h3>
-        <p>Emotion-aware narrative world models for long-horizon decision-making.</p>
+        <b>World Models &amp; Multimodal Intelligence</b>
+        <span>Predictive representations, temporal dynamics, video understanding, and long-horizon decision-making.</span>
       </div>
     </div>
   </section>
 
-  <!-- ===== News ===== -->
+  <!-- 02 News -->
   <section id="news">
-    <h2 class="section-title">News</h2>
+    <h2>News</h2>
     <ul class="news">
-      <li><span class="news__date">Feb 2027</span><span>I will join <b>Georgia Tech</b> for an MS in Computer Science.</span></li>
-      <li><span class="news__date">Oct 2026</span><span>My first-author paper <i>High Agreement, Wrong Construct</i> is under review at <b>ACL Rolling Review</b>.</span></li>
-      <li><span class="news__date">Sep 2026</span><span>I presented our star IP and cultural export work at <b>GAAC 2026</b>.</span></li>
-      <li><span class="news__date">Aug 2026</span><span>I attended the <b>NUS–MSRA AI Summer School</b> in Singapore.</span></li>
-      <li><span class="news__date">2026</span><span><i>Screen and Speech</i>, written with Prof. Wong Wai Peng, is under review at <b>ICWSM 2027</b>.</span></li>
+      <li><time>Feb 2027</time><span><span class="tag-up">Upcoming</span>Starting the OMSCS program (M.S. in Computer Science, Machine Learning specialization) at Georgia Tech.</span></li>
+      <li><time>Oct 2026</time><span>My first-author paper <i>High Agreement, Wrong Construct</i> is under review at ACL Rolling Review.</span></li>
+      <li><time>Sep 2026</time><span>Presented our star IP and cultural export work at GAAC 2026.</span></li>
+      <li><time>Aug 2026</time><span>Attended the NUS–MSRA AI Summer School in Singapore.</span></li>
+      <li><time>2026</time><span><i>Screen and Speech</i>, with Prof. Wong Wai Peng, is under review at ICWSM 2027.</span></li>
     </ul>
   </section>
 
-  <!-- ===== Research ===== -->
-  <section id="research">
-    <h2 class="section-title">Research</h2>
-    <div class="projects">
-
-      <article class="card">
-        <div class="card__head">
-          <div>
-            <h3>What Annotation Quality Metrics Actually Certify</h3>
-            <p class="card__meta">First author · with Rena Wei Gao (ByteDance LLM Foundation Team / University of Melbourne)</p>
-          </div>
-          <span class="badge badge--warn">Under review · ARR</span>
-        </div>
-        <ul>
-          <li>Asked whether inter-annotator agreement, classifier F1, LLM self-consistency and LLM replacement tests establish <b>construct validity</b> in multilingual NLP.</li>
-          <li>Evaluated <b>1,272</b> multilingual comments across seven theory-derived constructs, and identified three failure mechanisms: bundled definitions, extreme label sparsity, and collapse onto surface variables.</li>
-          <li>Benchmarked TF-IDF, XLM-R and mDeBERTa under grouped, leakage-safe evaluation, and validated internal metrics against an independent <b>550-participant</b> survey.</li>
-        </ul>
-        <div class="tags"><span class="tag">LLM evaluation</span><span class="tag">Construct validity</span><span class="tag">Multilingual NLP</span></div>
-      </article>
-
-      <article class="card">
-        <div class="card__head">
-          <div>
-            <h3>Emotion-Aware Narrative World Model</h3>
-            <p class="card__meta">Independent project · <i>Detroit: Become Human</i></p>
-          </div>
-          <span class="badge badge--ok">Ongoing</span>
-        </div>
-        <ul>
-          <li>Building a narrative world model for <b>long-horizon decision-making</b> that tracks emotional state, relationships, morality, story progression and narrative arc.</li>
-          <li>Exploring multi-objective planning that balances successful outcomes with emotionally and narratively meaningful choices, rather than optimising for a single "best ending".</li>
-          <li>Designing evaluation for affect prediction, relationship dynamics, moral decisions and long-horizon planning.</li>
-        </ul>
-        <div class="tags"><span class="tag">World models</span><span class="tag">Affective computing</span><span class="tag">Planning</span></div>
-      </article>
-
-      <article class="card">
-        <div class="card__head">
-          <div>
-            <h3>Screen and Speech: Multimodal Fandom Discourse</h3>
-            <p class="card__meta">Monash University · with Prof. Wong Wai Peng</p>
-          </div>
-          <span class="badge badge--warn">Under review · ICWSM</span>
-        </div>
-        <ul>
-          <li>Built a cross-platform corpus of <b>38,271</b> comments on seven girl groups from seven social media platforms, with linked media, platform and geographic information.</li>
-          <li>Designed a leakage-safe multimodal evaluation with video-disjoint splits, wrong-video controls, media-only probes, CLIP embeddings and mixed-effects models.</li>
-          <li>Found that aggregated media features gave no measurable predictive gain once video-identity leakage was controlled, while platform (venue) stayed significantly associated with cultural framing.</li>
-        </ul>
-        <div class="tags"><span class="tag">Multimodal</span><span class="tag">CLIP</span><span class="tag">Social media</span><span class="tag">Mixed-effects models</span></div>
-      </article>
-
-      <article class="card">
-        <div class="card__head">
-          <div>
-            <h3>From Star IP to Cultural Export</h3>
-            <p class="card__meta">PLS-SEM + construct-aligned multilingual comment analytics</p>
-          </div>
-          <span class="badge">GAAC 2026</span>
-        </div>
-        <ul>
-          <li>Developed a mixed-method framework that combines PLS-SEM with multilingual social media comment analysis to study star IP, tourism promotion, M-Pop acceptance and cultural export.</li>
-          <li>Analysed <b>550</b> survey responses across eight latent constructs and tested 12 structural paths, with bootstrapping, MICOM and multi-group analysis.</li>
-          <li>Annotated 1,500 comments from 21 content groups; implemented TF-IDF + logistic regression, XLM-R with label-wise attention and asymmetric loss, and validation-tuned late fusion.</li>
-        </ul>
-        <div class="tags"><span class="tag">PLS-SEM</span><span class="tag">XLM-R</span><span class="tag">Mixed methods</span></div>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- ===== Publications ===== -->
+  <!-- 03 Selected Research & Publications -->
   <section id="publications">
-    <h2 class="section-title">Publications</h2>
+    <div class="pub-head">
+      <h2>Research &amp; Publications</h2>
+      <div class="toggle" role="group" aria-label="Publication filter">
+        <button type="button" data-view="selected" aria-pressed="true">Selected</button>
+        <button type="button" data-view="all" aria-pressed="false">All</button>
+      </div>
+    </div>
 
-    <div class="pub-group">Under review</div>
-    <ul class="pubs">
-      <li class="pub">
-        <div class="pub__venue"><span class="badge badge--warn">ARR 2026</span></div>
+    <ul class="pubs" id="pubs" data-view="selected">
+
+      <li class="pub" data-selected>
+        <img src="images/research/construct-validity.svg" alt="Schematic: agreement metrics versus the intended construct">
         <div>
           <div class="pub__title">High Agreement, Wrong Construct: What Annotation Quality Metrics Actually Certify</div>
-          <div class="pub__authors"><b>X. Cheng</b>, X. Xu, R. W. Gao</div>
-          <div class="pub__where">ACL Rolling Review, October 2026 cycle</div>
+          <div class="pub__authors"><b>Xuejun Cheng</b>, X. Xu, Rena Wei Gao</div>
+          <div class="pub__venue"><span class="status status--review">Under review</span>ACL Rolling Review, Oct 2026</div>
+          <div class="pub__desc">Shows that inter-annotator agreement, classifier F1 and LLM consistency tests can all look strong while the model measures a different construct. Evaluated across 1,272 multilingual comments and seven theory-derived constructs, with an independent 550-participant survey as external evidence.</div>
         </div>
       </li>
-      <li class="pub">
-        <div class="pub__venue"><span class="badge badge--warn">ICWSM 2027</span></div>
+
+      <li class="pub" data-selected>
+        <img src="images/research/multimodal-discourse.svg" alt="Schematic: media features versus platform effects on cultural framing">
         <div>
           <div class="pub__title">Screen and Speech: Aggregated Media Features Do Not Predict Fandom Discourse, but Venue Covaries with It</div>
-          <div class="pub__authors"><b>X. Cheng</b> et al., with Prof. Wong Wai Peng</div>
-          <div class="pub__where">International AAAI Conference on Web and Social Media</div>
+          <div class="pub__authors"><b>Xuejun Cheng</b> et al., with Prof. Wong Wai Peng</div>
+          <div class="pub__venue"><span class="status status--review">Under review</span>ICWSM 2027</div>
+          <div class="pub__desc">A cross-platform corpus of 38,271 comments with leakage-safe multimodal evaluation (video-disjoint splits, wrong-video controls, CLIP, mixed-effects models). Media features add no predictive gain once leakage is controlled, while platform stays associated with cultural framing.</div>
         </div>
       </li>
-    </ul>
 
-    <div class="pub-group">Conference papers</div>
-    <ul class="pubs">
-      <li class="pub">
-        <div class="pub__venue"><span class="badge">GAAC 2026</span></div>
+      <li class="pub" data-selected>
+        <img src="images/research/world-model.svg" alt="Schematic: latent narrative state transitions under choices">
+        <div>
+          <div class="pub__title">Emotion-Aware Narrative World Model</div>
+          <div class="pub__authors"><b>Xuejun Cheng</b></div>
+          <div class="pub__venue"><span class="status status--ongoing">Ongoing</span>Independent project · <em>Detroit: Become Human</em></div>
+          <div class="pub__desc">A world model for long-horizon decision-making over emotional state, relationships, morality and story progression, with multi-objective planning that values emotionally and narratively meaningful choices rather than a single "best ending".</div>
+        </div>
+      </li>
+
+      <li class="pub" data-selected>
+        <img src="images/research/star-ip.svg" alt="Schematic: structural model linking star IP to cultural export">
         <div>
           <div class="pub__title">From Star IP to Cultural Export: Integrating PLS-SEM and Construct-Aligned Multilingual Comment Analytics</div>
-          <div class="pub__authors"><b>X. Cheng</b></div>
-          <div class="pub__where">GBA AI Alliance Conference, "AI Innovation and Applications: Shaping the Intelligent Economy", Sep 2026 <span class="note">· DOI pending</span></div>
+          <div class="pub__authors"><b>Xuejun Cheng</b></div>
+          <div class="pub__venue"><span class="status status--pub">Conference</span>GBA AI Alliance Conference (GAAC 2026) · DOI pending</div>
+          <div class="pub__desc">Combines a 550-response PLS-SEM survey with XLM-R-based multilingual comment analysis to study how star IP drives tourism promotion and cultural export.</div>
         </div>
       </li>
-      <li class="pub">
-        <div class="pub__venue"><span class="badge">UNU Macau 2025</span></div>
+
+      <li class="pub pub--text">
         <div>
           <div class="pub__title">Future Legal Regulation of AI Agent Applications in Financial Markets</div>
-          <div class="pub__authors"><b>X. Cheng</b> <span class="note">(sole author)</span></div>
-          <div class="pub__where">SSRN, 2025; presented at the UNU Macau AI Conference</div>
-          <div class="pub__links"><a href="https://doi.org/10.2139/ssrn.6631898" target="_blank" rel="noopener">DOI ↗</a></div>
+          <div class="pub__authors"><b>Xuejun Cheng</b> (sole author)</div>
+          <div class="pub__venue"><span class="status status--pub">Preprint</span>SSRN, 2025 · presented at the UNU Macau AI Conference 2025</div>
+          <div class="pub__links"><a href="https://doi.org/10.2139/ssrn.6631898" target="_blank" rel="noopener">DOI</a></div>
         </div>
       </li>
-      <li class="pub">
-        <div class="pub__venue"><span class="badge">JMS Conf 2025</span></div>
-        <div>
-          <div class="pub__title">Marketing Model Innovation and Quantitative Analysis: A Case Study of Lay Zhang and the R.E.D. Girl Group on the Dual Path of Variety Shows in "Cultural Tourism Integration" and "Cultural Export"</div>
-          <div class="pub__authors"><b>X. Cheng</b></div>
-          <div class="pub__where">Journal of Marketing Science Conference, 2025 (poster)</div>
-        </div>
-      </li>
-    </ul>
 
-    <div class="pub-group">Journal articles</div>
-    <ul class="pubs">
-      <li class="pub">
-        <div class="pub__venue"><span class="badge">Journal 2026</span></div>
+      <li class="pub pub--text">
         <div>
           <div class="pub__title">Optimizing the Logistics and Warehousing Model of Anti-Cancer Drugs for Cancer Patients</div>
-          <div class="pub__authors">M. Yu, L. Luo, <b>X. Cheng</b><span class="note">*</span> <span class="note">(* corresponding author)</span></div>
-          <div class="pub__where">Psycho-Oncologie, 20(6), 2026</div>
-          <div class="pub__links"><a href="https://doi.org/10.18282/po5579" target="_blank" rel="noopener">DOI ↗</a></div>
+          <div class="pub__authors">M. Yu, L. Luo, <b>Xuejun Cheng</b> (corresponding author)</div>
+          <div class="pub__venue"><span class="status status--pub">Journal</span><em>Psycho-Oncologie</em>, 20(6), 2026</div>
+          <div class="pub__links"><a href="https://doi.org/10.18282/po5579" target="_blank" rel="noopener">DOI</a></div>
         </div>
       </li>
-      <li class="pub">
-        <div class="pub__venue"><span class="badge">Journal 2025</span></div>
+
+      <li class="pub pub--text">
         <div>
           <div class="pub__title">Simulation Study on Optimization of Delivery Path for Community Group Buying</div>
-          <div class="pub__authors">M. Yu, L. Luo, <b>X. Cheng</b><span class="note">*</span> <span class="note">(* corresponding author)</span></div>
-          <div class="pub__where">Frontiers in Future Transportation, 6:1671246, 2025</div>
-          <div class="pub__links"><a href="https://doi.org/10.3389/ffutr.2025.1671246" target="_blank" rel="noopener">DOI ↗</a></div>
+          <div class="pub__authors">M. Yu, L. Luo, <b>Xuejun Cheng</b> (corresponding author)</div>
+          <div class="pub__venue"><span class="status status--pub">Journal</span><em>Frontiers in Future Transportation</em>, 6:1671246, 2025</div>
+          <div class="pub__links"><a href="https://doi.org/10.3389/ffutr.2025.1671246" target="_blank" rel="noopener">DOI</a></div>
         </div>
       </li>
-      <li class="pub">
-        <div class="pub__venue"><span class="badge">Journal 2024</span></div>
+
+      <li class="pub pub--text">
         <div>
           <div class="pub__title">Research on the Development of New Quality Productivity Promoted by Intelligent Property Management System Based on AI Technology</div>
-          <div class="pub__authors"><b>X. Cheng</b></div>
-          <div class="pub__where">Sustainable Development, 14(07), 1762–1766, 2024</div>
-          <div class="pub__links"><a href="https://doi.org/10.12677/sd.2024.147203" target="_blank" rel="noopener">DOI ↗</a></div>
+          <div class="pub__authors"><b>Xuejun Cheng</b></div>
+          <div class="pub__venue"><span class="status status--pub">Journal</span><em>Sustainable Development</em>, 14(07), 1762–1766, 2024</div>
+          <div class="pub__links"><a href="https://doi.org/10.12677/sd.2024.147203" target="_blank" rel="noopener">DOI</a></div>
         </div>
       </li>
+
+      <li class="pub pub--text">
+        <div>
+          <div class="pub__title">Marketing Model Innovation and Quantitative Analysis: A Case Study of Lay Zhang and the R.E.D. Girl Group on the Dual Path of Variety Shows in "Cultural Tourism Integration" and "Cultural Export"</div>
+          <div class="pub__authors"><b>Xuejun Cheng</b></div>
+          <div class="pub__venue"><span class="status status--pub">Poster</span>Journal of Marketing Science Conference, 2025</div>
+        </div>
+      </li>
+
     </ul>
   </section>
 
-  <!-- ===== Background ===== -->
-  <section id="background">
-    <h2 class="section-title">Background</h2>
-    <div class="two-col">
-      <div>
-        <h3 class="subhead">Education</h3>
-        <ul class="tl">
-          <li>
-            <div class="tl__when">Feb 2027 – Feb 2029 (expected)</div>
-            <div class="tl__what">MS in Computer Science</div>
-            <div class="tl__where">Georgia Institute of Technology</div>
-          </li>
-          <li>
-            <div class="tl__when">Feb 2026 – Feb 2028 (expected)</div>
-            <div class="tl__what">Master of Artificial Intelligence</div>
-            <div class="tl__where">Monash University · GPA 3.25/4 · Deep Learning, Planning and Automated Reasoning, Fundamentals of AI</div>
-          </li>
-          <li>
-            <div class="tl__when">Feb 2025 – Dec 2025</div>
-            <div class="tl__what">Exchange Program, KoGuan School of Law</div>
-            <div class="tl__where">Shanghai Jiao Tong University · Grade A · contract law, financial market regulation</div>
-          </li>
-          <li>
-            <div class="tl__when">2021 – 2025</div>
-            <div class="tl__what">BA (Hons) Marketing, 2:1</div>
-            <div class="tl__where">Coventry University, UK</div>
-          </li>
-        </ul>
-
-        <h3 class="subhead" style="margin-top:28px">Summer &amp; Winter Schools</h3>
-        <ul class="tl">
-          <li>
-            <div class="tl__when">Aug 2026</div>
-            <div class="tl__what">NUS–MSRA AI Summer School</div>
-            <div class="tl__where">National University of Singapore &amp; Microsoft Research Asia</div>
-          </li>
-          <li>
-            <div class="tl__when">Jan 2026</div>
-            <div class="tl__what">AI + Quantum Winter School</div>
-            <div class="tl__where">Shenzhen Loop Area Institute · reproduced an LLM-based quantum circuit simulation</div>
-          </li>
-          <li>
-            <div class="tl__when">Jul 2025</div>
-            <div class="tl__what">ZJU–UIUC Institute Summer School</div>
-            <div class="tl__where">Structured literature review of computer vision research (grade A)</div>
-          </li>
-          <li>
-            <div class="tl__when">Jun 2025</div>
-            <div class="tl__what">SJTU SDG July Camp (Law and Ethics)</div>
-            <div class="tl__where">Shanghai Jiao Tong University</div>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="subhead">Experience &amp; Service</h3>
-        <ul class="tl">
-          <li>
-            <div class="tl__when">2026</div>
-            <div class="tl__what">Student Contributor, AI Academic Reviewer Skill Project</div>
-            <div class="tl__where">Prof. Liu's team · curated scholar profiles as source data for an LLM reviewing skill</div>
-          </li>
-          <li>
-            <div class="tl__when">2026 – present</div>
-            <div class="tl__what">Reviewer</div>
-            <div class="tl__where"><i>Social Work Education</i> (journal)</div>
-          </li>
-          <li>
-            <div class="tl__when">2026 – present</div>
-            <div class="tl__what">Course Representative, Faculty of IT</div>
-            <div class="tl__where">Monash University</div>
-          </li>
-          <li>
-            <div class="tl__when">2026 – present</div>
-            <div class="tl__what">U21 Global Citizen</div>
-            <div class="tl__where">Universitas 21</div>
-          </li>
-          <li>
-            <div class="tl__when">2024 – present</div>
-            <div class="tl__what">University Research Assistant</div>
-            <div class="tl__where">School of Business, Coventry University · Supervisor: Rahul Sen</div>
-          </li>
-          <li>
-            <div class="tl__when">Sep 2025 – Dec 2025</div>
-            <div class="tl__what">Tutor</div>
-            <div class="tl__where">Jiangxi Vocational College of Industry &amp; Engineering</div>
-          </li>
-          <li>
-            <div class="tl__when">2021 – 2025</div>
-            <div class="tl__what">Course Representative</div>
-            <div class="tl__where">Coventry University Students' Union</div>
-          </li>
-          <li>
-            <div class="tl__when">2023</div>
-            <div class="tl__what">Assistant Manager</div>
-            <div class="tl__where">ZhongDa Property Management Co., Ltd.</div>
-          </li>
-        </ul>
-
-        <h3 class="subhead" style="margin-top:28px">Talks &amp; Conferences</h3>
-        <ul class="tl">
-          <li><div class="tl__when">2026</div><div class="tl__what">GAAC 2026 — paper presentation</div></li>
-          <li><div class="tl__when">2025</div><div class="tl__what">UNU Macau AI Conference — presentation</div></li>
-          <li><div class="tl__when">2025</div><div class="tl__what">Journal of Marketing Science Conference</div></li>
-        </ul>
-      </div>
-    </div>
+  <!-- 04 Research Experience & Mentorship -->
+  <section id="mentorship">
+    <h2>Research Experience &amp; Mentorship</h2>
+    <table class="mentors">
+      <thead><tr><th>Institution</th><th>Faculty / Mentor</th><th>Research context</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>Monash University</td>
+          <td>A/Prof. Julian Garcia</td>
+          <td class="muted">Game theory and collective intelligence; research on whether relying on AI can make groups less intelligent</td>
+        </tr>
+        <tr>
+          <td>Monash University</td>
+          <td>Prof. Wong Wai Peng</td>
+          <td class="muted">Multimodal social media discourse (<i>Screen and Speech</i>, ICWSM 2027 under review)</td>
+        </tr>
+        <tr>
+          <td>Collaboration</td>
+          <td>Rena Wei Gao <span class="muted">(ByteDance / Univ. of Melbourne)</span></td>
+          <td class="muted">Construct validity of LLM annotation (ARR 2026 under review)</td>
+        </tr>
+        <tr>
+          <td>Coventry University</td>
+          <td>Rahul Sen</td>
+          <td class="muted">University Research Assistant, School of Business</td>
+        </tr>
+        <tr>
+          <td>Shanghai Jiao Tong University</td>
+          <td>Prof. Wei Shen (沈伟)</td>
+          <td class="muted">KoGuan School of Law · paper in preparation on AI in finance; earlier exchange study in financial law and market regulation</td>
+        </tr>
+      </tbody>
+    </table>
   </section>
 
-  <!-- ===== Skills ===== -->
-  <section id="skills">
-    <h2 class="section-title">Skills</h2>
-    <dl class="skills">
-      <dt>Deep learning</dt><dd>Python, PyTorch (hand-implemented forward and backward passes, CNNs), scikit-learn</dd>
-      <dt>NLP &amp; LLMs</dt><dd>Fine-tuning and modifying XLM-R and mDeBERTa (label-wise attention, asymmetric loss, late fusion); multi-step LLM agent workflows</dd>
-      <dt>Multimodal</dt><dd>CLIP feature extraction for video-linked social media data</dd>
-      <dt>Methods</dt><dd>Leakage-safe experimental design; mixed-effects models; PLS-SEM (bootstrapping, MICOM, multi-group analysis)</dd>
-      <dt>Planning</dt><dd>Heuristic search and adversarial search</dd>
-      <dt>Languages</dt><dd>Mandarin (native), English (fluent)</dd>
-    </dl>
+  <!-- 05 Education & Background -->
+  <section id="background">
+    <h2>Education</h2>
+    <ul class="cv-list">
+      <li>
+        <span class="what">M.S. in Computer Science (OMSCS), Georgia Institute of Technology</span>
+        <span class="when">Spring 2027 – (expected)</span>
+        <span class="where">Online program · planned specialization: Machine Learning</span>
+      </li>
+      <li>
+        <span class="what">Master of Artificial Intelligence, Monash University</span>
+        <span class="when">Feb 2026 – present</span>
+        <span class="where">GPA 3.25/4 · Deep Learning, Planning and Automated Reasoning, Fundamentals of AI</span>
+      </li>
+      <li>
+        <span class="what">Exchange Program, KoGuan School of Law, Shanghai Jiao Tong University</span>
+        <span class="when">Feb – Dec 2025</span>
+        <span class="where">Grade A · contract law, financial market regulation</span>
+      </li>
+      <li>
+        <span class="what">BA (Hons) Marketing, Coventry University</span>
+        <span class="when">2021 – 2025</span>
+        <span class="where">Upper Second Class Honours (2:1)</span>
+      </li>
+    </ul>
+
+    <details>
+      <summary>Summer schools, service &amp; other experience</summary>
+      <ul class="compact">
+        <li><b>NUS–MSRA AI Summer School</b>, Singapore — Aug 2026</li>
+        <li><b>AI + Quantum Winter School</b>, Shenzhen Loop Area Institute — reproduced an LLM-based quantum circuit simulation (Jan 2026)</li>
+        <li><b>ZJU–UIUC Institute Summer School</b> — structured literature review of computer vision research, grade A (Jul 2025)</li>
+        <li><b>SJTU SDG July Camp</b> (Law and Ethics) — Jun 2025</li>
+        <li><b>Reviewer</b>, <i>Social Work Education</i> — 2026–present</li>
+        <li><b>Student contributor</b>, AI Academic Reviewer Skill Project (Prof. Liu's team) — 2026</li>
+        <li><b>Course Representative</b>, Faculty of IT, Monash University — 2026–present; Coventry University Students' Union — 2021–2025</li>
+        <li><b>U21 Global Citizen</b>, Universitas 21 — 2026–present</li>
+        <li><b>Talks</b>: GAAC 2026; UNU Macau AI Conference 2025</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Skills</summary>
+      <ul class="compact">
+        <li><b>ML / DL</b>: Python, PyTorch (hand-implemented forward and backward passes, CNNs), scikit-learn</li>
+        <li><b>NLP</b>: fine-tuning and modifying XLM-R and mDeBERTa; multi-step LLM agent workflows</li>
+        <li><b>Multimodal</b>: CLIP feature extraction for video-linked social media data</li>
+        <li><b>Methods</b>: leakage-safe experimental design, mixed-effects models, PLS-SEM</li>
+        <li><b>Languages</b>: Mandarin (native), English (fluent)</li>
+      </ul>
+    </details>
   </section>
 
 </main>
 
+<!-- 06 Contact -->
 <footer>
-  <div class="container">
-    <span>© 2026 Xuejun (Jack) Cheng · <a href="mailto:xche0474@student.monash.edu">xche0474@student.monash.edu</a> · <a href="mailto:jackcheng030910@outlook.com">jackcheng030910@outlook.com</a></span>
+  <div class="wrap">
+    <span>Contact: <a href="mailto:xche0474@student.monash.edu">xche0474@student.monash.edu</a> · <a href="mailto:jackcheng030910@outlook.com">jackcheng030910@outlook.com</a></span>
     <span>Last updated: October 2026</span>
   </div>
 </footer>
 
+<script>
+  (function () {
+    var list = document.getElementById('pubs');
+    document.querySelectorAll('.toggle button').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        list.setAttribute('data-view', btn.dataset.view);
+        document.querySelectorAll('.toggle button').forEach(function (b) {
+          b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
+        });
+      });
+    });
+    var root = document.documentElement;
+    document.getElementById('theme-btn').addEventListener('click', function () {
+      var cur = root.getAttribute('data-theme');
+      if (!cur) cur = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      var next = cur === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+  })();
+</script>
 </body>
 </html>
